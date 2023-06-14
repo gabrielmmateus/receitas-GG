@@ -44,9 +44,6 @@ const RecipeDetailPage = ({ recipe, onClose }) => {
           </TouchableOpacity>
         </View>
         </ScrollView>
-        <View style={styles.footer}>
-          <Text><Copyright/></Text>
-        </View>
       </View>
     </Modal>
   );
